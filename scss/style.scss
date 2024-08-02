@@ -1,0 +1,493 @@
+//imports
+@import "variables";
+@import "header";
+@import "footer";
+@import "sections";
+@import "whats";
+@import "hero";
+@import "forms";
+@import "cta";
+@import "privacidade";
+@import "animations";
+@import "internas";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: $font_1;
+}
+
+html, body{
+	overflow-x: hidden;
+
+	&.not-overflow{
+		overflow: visible !important;
+	}
+
+	&.not-overflow-x{
+		overflow-x: visible !important;
+
+		section {
+			overflow: visible !important;
+		}
+
+	}
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	transition: 0.4s ease;
+}
+
+p {
+	color: #000;
+	margin-bottom: 15px;
+	font-size: 1em;
+	line-height: 22px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+section {
+	overflow: hidden;
+
+}
+
+.section-padding {
+	padding: 85px 0;
+}
+
+.section-title {
+	h1,
+	h2 {
+		font-size: 3em;
+		font-weight: 700;
+	}
+
+	span {
+		text-transform: uppercase;
+		font-size: 0.9em;
+		display: block;
+	}
+
+	&.text-center{
+		.divider{
+			margin: 0 auto;
+		}
+	}
+}
+
+.swiper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.swiper-slide {
+	background-size: cover;
+	background-position: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.divider {
+	background: $theme-color;
+	-webkit-mask-image: url(../img/logo/divider.svg);
+	-webkit-mask-position: center center;
+	-webkit-mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
+	width: 55px;
+	height: 25px;
+}
+
+.btn {
+	background: $theme-color2;
+	box-shadow:
+		rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	padding: 13px 20px;
+	text-transform: uppercase;
+	font-family: $font_1;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 5px;
+	-moz-user-select: none;
+	font-weight: 400;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: color 0.4s linear;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+
+	&::after {
+		position: absolute;
+		content: "";
+		width: 0;
+		height: 100%;
+		top: 0;
+		right: 0;
+		z-index: -1;
+		background-color: $theme-color;
+		border-radius: 5px;
+		box-shadow:
+			inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+			7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+			4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease;
+	}
+
+	&:hover {
+		color: #fff;
+	}
+
+	&:hover:after {
+		left: 0;
+		width: 100%;
+	}
+
+	&:active {
+		top: 2px;
+	}
+}
+
+.btn-arrow {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	letter-spacing: 0.1rem;
+	font-weight: 800;
+	transition: 0.3s all ease;
+	color: $theme_color3;
+	display: inline-block;
+
+	&:after {
+		transition: 0.3s all ease;
+		position: absolute;
+		content: "\279C";
+		top: 50%;
+		transform: translateY(-50%);
+		right: 0;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	&:hover {
+		padding-right: 30px;
+		color: $theme-color2;
+
+		&:after {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+
+.btn-one {
+	position: relative;
+	font-size: 16px;
+	text-transform: uppercase;
+	overflow: hidden;
+	text-decoration: none;
+	padding: 15px 30px;
+	display: flex;
+	align-items: center;
+	border-radius: 50px;
+	transition: all .2s;
+	border: none;
+	font-family: inherit;
+	font-weight: 600;
+	max-width: fit-content;
+	background: $theme-color;
+	color: #fff;
+
+	transition: .4s ease-in-out;
+  
+	&:hover {
+	  transform: translateY(-3px);
+	  box-shadow: 0 10px 18px rgba(38, 38, 38, 0.15);
+	  background: $theme-color2;
+		color: #fff;
+
+		i{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $theme-color2;
+			transform: rotate(0deg);
+		}
+
+			&::after{
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+	}
+
+	&::after {
+		    content: "";
+				position: absolute;
+				z-index: -1;
+				width: 100%;
+				height: 100px;
+				border-radius: 100px;
+				background: $theme-color2;
+				top: 100%;
+				left: 0;
+				transition: .3s ease;
+	}
+  
+	i{
+		margin-left: 10px;
+		font-size: 16px;
+		font-weight: 600;
+		transform: rotate(-30deg);
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #fff;
+		color: $theme-color2;
+		transition: .2s ease-in;
+		padding: 0;
+	}
+  }
+  // ----------- botão 02 ----------------
+
+	.btn-two {
+		position: relative;
+		line-height: 1;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: fit-content;
+		background: $gradient1;
+		color: #fff;
+		border-radius: 50px;
+		padding: 8px 15px ;
+		margin: 20px 0;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		box-shadow: 3px 3px 25px -5px rgba(0, 0, 0, 0.2);
+		transition: 0.3s ease-in;
+
+		&.color2{
+			background: $theme-color;
+
+			&:hover {
+				background: $theme-color3;
+			}
+		}
+
+		&:hover {
+			background: $theme-color;
+			transform: scale(1.03);
+
+			.icon {
+				.i1 {
+					transition: transform .3s ease-in-out;
+					transform: translate(180%, -200%);
+				}
+				.i2 {
+					transition: transform .3s ease-in-out .1s;
+					transform: translate(0px, 0px) rotate(-30deg);
+				}
+			}
+		}
+
+		span, .txt{
+			font-weight: 600;
+			font-size: 16px;
+			padding: 10px 20px;
+		}
+
+		.icon {
+			flex-shrink: 0;
+			width: 30px;
+			height: 30px;
+			position: relative;
+			color: $theme-color;
+			background-color: #fff;
+			border-radius: 50%;
+			display: grid;
+			place-items: center;
+			overflow: hidden;
+
+			.i1, .i2 {
+				color: $theme-color;
+				font-size: 14px;
+				margin: 0;
+				position: absolute;
+				transform: translate(-0%, 0%) rotate(-30deg);
+			}
+			.i2{
+				transform: translate(-200%, 180%) rotate(-30deg);
+			}
+		}
+
+	}
+
+	
+
+.whats-form {
+	background: #22ba59;
+	margin-left: 10px !important;
+
+	&::after {
+		background-color: #01a43d;
+	}
+}
+
+.go-top-btn {
+	background: $theme-color3;
+	height: 55px;
+	width: 55px;
+	right: 15px;
+	bottom: 10px;
+	position: fixed;
+	z-index: 10;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+	color: #1f1f1f;
+	text-decoration: none;
+	transition: all 0.4s;
+	display: none;
+	cursor: pointer;
+
+	i {
+		display: block;
+		line-height: 52px;
+		color: #fff;
+	}
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: auto;
+	scrollbar-color: $theme-color #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #f5f5f5;
+	border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: $theme-color;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+
+	&:hover {
+		background-color: $theme-color2;
+	}
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Custom Cursor
+--------------------------------------------------------------*/
+
+.custom-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99vw;
+  height: 1%;
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.2s ease-in-out,
+                transform 0.2s ease-in-out;
+								z-index: 9999999999999;
+
+								@media #{$md} {
+									display: none;
+								}
+								@media #{$sm} {
+									display: none;
+								}
+								@media #{$xs} {
+									display: none;
+								}
+								@media #{$xxs} {
+									display: none;
+								}
+}
+.cursor-dot {
+    $sizeDot: 5px;
+    width: $sizeDot;
+    height: $sizeDot;
+    background-color: $theme-color2;
+}
+
+.cursor-dot-outline {
+    $sizeCircle: 25px;
+    width: $sizeCircle;
+    height: $sizeCircle;
+    border: 1px solid;
+		border-color: rgba($theme-color , 0.7) !important;
+}
+/*--------------------------------------------------------------
+# Custom Cursor End
+--------------------------------------------------------------*/
+
+.sticky-div {
+  position: sticky !important;
+  top: 140px !important;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

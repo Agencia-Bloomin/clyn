@@ -1,0 +1,10 @@
+<li class="mr-2">
+                    <a class="d-flex" href="?lang=ptbr">
+                      <img class="img-fluid w-75" src="img/icon/BRA.png" alt="Idioma Português" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="d-flex" href="?lang=en">
+                      <img class="img-fluid w-75" src="img/icon/USA.png" alt="English language" />
+                    </a>
+                  </li>
