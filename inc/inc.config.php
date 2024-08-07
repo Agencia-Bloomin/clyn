@@ -7,8 +7,8 @@
 ##################
 ###### SITE ######
 ##################
-define("CONF_TAG_BASE", "https://bloominprojetos.com.br/projetos/clyn/");
-// define("CONF_TAG_BASE", "http://localhost/layouts/clyn/");
+// define("CONF_TAG_BASE", "https://bloominprojetos.com.br/projetos/clyn/");
+define("CONF_TAG_BASE", "http://localhost/bloomin/clyn/");
 
 
 define("CONF_SITE_NAME", "Clyn");
