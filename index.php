@@ -13,14 +13,14 @@
   <?php
 
   //   == banner 1 ====
-  define("IMG_BANNER1", "img/banners/banner.jpg");
-  define("IMG_BANNER1_MOB", "img/banners/bannermob.jpg");
+  define("IMG_BANNER1", "img/banners/1.png");
+  define("IMG_BANNER1_MOB", "img/banners/1mob.png");
   //   == banner 2 ====
-  define("IMG_BANNER2", "img/banners/banner.jpg");
-  define("IMG_BANNER2_MOB", "img/banners/bannermob.jpg");
+  define("IMG_BANNER2", "img/banners/2.png");
+  define("IMG_BANNER2_MOB", "img/banners/2mob.png");
   //   == banner 3 ====
-  define("IMG_BANNER3", "img/banners/banner.jpg");
-  define("IMG_BANNER3_MOB", "img/banners/bannermob.jpg");
+  define("IMG_BANNER3", "img/banners/3.png");
+  define("IMG_BANNER3_MOB", "img/banners/3mob.png");
   ?>
 
   <!-- ===================================================== -->
@@ -42,9 +42,13 @@
             </div>
             <div class="content">
               <div class="text fadeUp">
-                <span>Tapete de Vinil</span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit officiis veniam provident quos
-                  repellendus illum modi adipisci error inventore.</p>
+                <span>Tapetes e capachos personalizados para empresas
+                </span>
+                <p>Destaque seu espaço com tapetes e capachos personalizados com os tapetes da Clyn,
+                  unindo estética e funcionalidade. Perfeitos para ambientes corporativos que exigem
+                  qualidade e elegância.
+
+                </p>
                 <a href="produtos" class="btn-one">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
@@ -64,9 +68,12 @@
             </div>
             <div class="content">
               <div class="text fadeUp">
-                <span>Tapete Duo</span>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vel id laudantium quasi
-                  corporis fuga repellendus praesentium voluptate porro.</p>
+                <span>Qualidade na retenção de sujidade e umidade
+                </span>
+                <p>Mantenha seus ambientes limpos e seguros com tapetes que garantem alta eficiência na
+                  retenção de sujidade e umidade. Proteção e qualidade em cada detalhe que só a Clyn
+                  pode oferecer.
+                </p>
 
                 <a href="produtos" class="btn-one">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
               </div>
@@ -86,9 +93,11 @@
             </div>
             <div class="content">
               <div class="text fadeUp">
-                <span>Piso Moeda</span>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vel id laudantium quasi
-                  corporis fuga repellendus praesentium voluptate porro.</p>
+                <span>Tapetes de Vinil</span>
+                <p>Resistentes e práticos, os tapetes de vinil são ideais para áreas de alto tráfego.
+                  Durabilidade e fácil manutenção com o estilo que seu ambiente merece. Conheça os
+                  tapetes da Clyn.
+                </p>
 
                 <a href="produtos" class="btn-one">Saiba Mais <i class="fa-solid fa-arrow-right"></i></a>
               </div>
@@ -155,12 +164,18 @@
             </div>
             <div class="text-content ">
               <div class="desc mb-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maxime. Nostrum saepe
-                  eveniet hic, nam necessitatibus sed id totam? Porro eum aliquid vel ipsa corporis? Itaque
-                  recusandae modi voluptatibus culpa.
-                  Fuga facere in, omnis rerum praesentium culpa dolores nihil reprehenderit reiciendis tenetur
-                  consectetur. Dicta blanditiis assumenda rem recusandae possimus, aperiam accusantium quisquam
-                  aspernatur. Quae commodi corporis explicabo? Dicta, aliquam debitis.</p>
+                <p>Com uma trajetória de 33 anos de excelência, a Clyn é uma das empresas mais
+                  tradicionais e respeitadas na confecção de tapetes e revestimentos personalizados no
+                  mercado nacional. A Clyn é reconhecida por sua capacidade de atender a uma ampla
+                  gama de aplicações, tanto em ambientes comerciais quanto residenciais. </p>
+
+                <p>Com um portfólio diversificado, a empresa oferece tapetes e capachos personalizados
+                  que são a escolha ideal para criar espaços que se destacam pela sua qualidade e
+                  estética. </p>
+
+                <p>O compromisso com a inovação é uma marca registrada da Clyn, que investe
+                  constantemente em tecnologia e processos para garantir produtos que não só atendem,
+                  mas superam as exigências do mercado.</p>
               </div>
 
 
@@ -253,13 +268,14 @@
                 <h2 class="title">
                   Nossos <b>Produtos</b>
                 </h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci labore assumenda necessitatibus
-                  minus.
-                  Assumenda accusantium aut modi, ratione reprehenderit quas, asperiores incidunt omnis minus ab
-                  similique
-                  sed quibusdam minima voluptates.
-                </p>
+                <p>Os principais produtos da Clyn incluem tapetes e capachos personalizados para
+                  empresas, ideais para criar uma primeira impressão positiva e reforçar a identidade
+                  da marca. </p>
+                <p>Nossos produtos são confeccionados com materiais de alta qualidade, garantindo
+                  resistência a condições adversas e um visual sofisticado. </p>
+                <p>Além disso, oferecemos tapetes e capachos para retenção de sujeira e umidade, que são
+                  perfeitos para ambientes de alto tráfego onde a manutenção da limpeza e da segurança
+                  é essencial.</p>
 
 
               </div>
@@ -291,9 +307,11 @@
                       <div class="info">
                         <div>
                           <h2>Tapete de Vinil</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate quod enim corrupti
-                            eius animi quasi, temporibus facilis quidem beatae consequuntur commodi error? Facere
-                            suscipit fugiat eaque at odio voluptas.</p>
+                          <p>O tapete de vinil da Clyn é a solução perfeita para quem busca um
+                            revestimento que combine durabilidade, estilo e facilidade de
+                            manutenção. Desenvolvido para atender a uma ampla gama de
+                            aplicações, o Tapete de Vinil é a escolha ideal para ambientes
+                            que exigem resistência e um visual sofisticado.</p>
                         </div>
                         <span class="btn-link">Saiba mais <i class="fas fa-arrow-right"></i></span>
                       </div>
@@ -312,9 +330,13 @@
                       <div class="info">
                         <div>
                           <h2>Tapete Duo</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate quod enim corrupti
-                            eius animi quasi, temporibus facilis quidem beatae consequuntur commodi error? Facere
-                            suscipit fugiat eaque at odio voluptas.</p>
+                          <p>O tapete duo da Clyn é a escolha ideal para aqueles que buscam um
+                            produto que não apenas atende às necessidades funcionais, mas
+                            também adiciona um toque de elegância a qualquer espaço. Este
+                            tapete foi desenvolvido com um foco minucioso nos detalhes,
+                            oferecendo uma combinação única de praticidade e sofisticação
+                            que transforma ambientes comuns em espaços de destaque.
+                          </p>
                         </div>
                         <span class="btn-link">Saiba mais <i class="fas fa-arrow-right"></i></span>
                       </div>
@@ -333,9 +355,14 @@
                       <div class="info">
                         <div>
                           <h2>Tapete Waterkap</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate quod enim corrupti
-                            eius animi quasi, temporibus facilis quidem beatae consequuntur commodi error? Facere
-                            suscipit fugiat eaque at odio voluptas.</p>
+                          <p>O tapete Waterkap da Clyn é uma escolha excepcional para quem
+                            busca um revestimento altamente resistente e eficaz na
+                            manutenção da limpeza de ambientes internos. Projetado para ser
+                            colocado na entrada de edifícios e outros espaços com alta
+                            circulação de pessoas, o Waterkap é ideal para enxugar os pés
+                            antes de entrar em áreas internas, ajudando a reduzir a sujeira
+                            e umidade que podem ser trazidas do exterior.
+                          </p>
                         </div>
                         <span class="btn-link">Saiba mais <i class="fas fa-arrow-right"></i></span>
                       </div>
@@ -356,9 +383,11 @@
                       <div class="info">
                         <div>
                           <h2>Tapete Cleankap</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate quod enim corrupti
-                            eius animi quasi, temporibus facilis quidem beatae consequuntur commodi error? Facere
-                            suscipit fugiat eaque at odio voluptas.</p>
+                          <p>O tapete Cleankap da Clyn é a escolha perfeita para quem busca um
+                            tapete que combine excelência na retenção de sujeira e umidade
+                            com um design sofisticado. Ideal para ambientes comerciais e
+                            residenciais, o Cleankap é desenvolvido para maximizar a
+                            eficiência na limpeza e melhorar a estética do seu espaço.</p>
                         </div>
                         <span class="btn-link">Saiba mais <i class="fas fa-arrow-right"></i></span>
                       </div>
@@ -377,9 +406,13 @@
                       <div class="info">
                         <div>
                           <h2>Piso Moeda</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate quod enim corrupti
-                            eius animi quasi, temporibus facilis quidem beatae consequuntur commodi error? Facere
-                            suscipit fugiat eaque at odio voluptas.</p>
+                          <p>O Piso Moeda da Clyn é a solução perfeita para quem busca um
+                            revestimento que combine estética, funcionalidade e resistência.
+                            Ideal para uma ampla gama de ambientes comerciais e
+                            residenciais, o Piso Moeda se destaca por sua capacidade de
+                            oferecer um visual moderno e sofisticado, aliado a uma
+                            durabilidade excepcional.
+                          </p>
                         </div>
                         <span class="btn-link">Saiba mais <i class="fas fa-arrow-right"></i></span>
                       </div>
@@ -398,9 +431,12 @@
                       <div class="info">
                         <div>
                           <h2>Piso Bus</h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptate quod enim corrupti
-                            eius animi quasi, temporibus facilis quidem beatae consequuntur commodi error? Facere
-                            suscipit fugiat eaque at odio voluptas.</p>
+                          <p>O piso bus da Clyn é a solução perfeita para quem busca um
+                            revestimento robusto e esteticamente atraente, ideal para áreas
+                            de alta circulação. Projetado para atender às demandas de
+                            ambientes comerciais e públicos, o Piso Bus oferece uma
+                            combinação única de durabilidade, funcionalidade e design.
+                          </p>
                         </div>
                         <span class="btn-link">Saiba mais <i class="fas fa-arrow-right"></i></span>
                       </div>
@@ -459,11 +495,11 @@
               foreach ($items as $item) : if ($count >= $max_items) break;
                 $count++;
               ?>
-              <div class="swiper-slide">
-                <div class="item-brand">
-                  <img src="<?= $item; ?>" alt="marcas" title="marcas">
+                <div class="swiper-slide">
+                  <div class="item-brand">
+                    <img src="<?= $item; ?>" alt="marcas" title="marcas">
+                  </div>
                 </div>
-              </div>
 
               <?php endforeach; ?>
             </div>
@@ -504,13 +540,13 @@
                 $count++;
               ?>
 
-              <div class="col-xl-3 col-lg-4 col-md-6">
-                <a href="<?= $item; ?>" data-fancybox="gallery">
-                  <div class="g-item">
-                    <img src="<?= $item; ?>" alt="galeria" title="galeria">
-                  </div>
-                </a>
-              </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  <a href="<?= $item; ?>" data-fancybox="gallery">
+                    <div class="g-item">
+                      <img src="<?= $item; ?>" alt="galeria" title="galeria">
+                    </div>
+                  </a>
+                </div>
 
               <?php endforeach; ?>
 
@@ -579,8 +615,7 @@
                   <i class="fas fa-map-marker-alt"></i>
                 </div>
                 <div class="content">
-                  <p> <a class="dn_btn" href="<?php echo CONF_SITE_MAP_LINK; ?>"
-                      target="_blank"><?php echo CONF_SITE_STREET; ?></a></p>
+                  <p> <a class="dn_btn" href="<?php echo CONF_SITE_MAP_LINK; ?>" target="_blank"><?php echo CONF_SITE_STREET; ?></a></p>
                 </div>
               </div>
             </div>
@@ -605,9 +640,9 @@
   <?php include 'inc/inc.js.php' ?>
 
   <script>
-  Fancybox.bind("[data-fancybox]", {
-    // Your custom options
-  });
+    Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });
   </script>
 
 
