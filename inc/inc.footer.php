@@ -8,14 +8,14 @@
             <div class="single-footer-caption">
               <!-- logo -->
               <div class="footer-logo">
-                <a href="./"><img src="img/logo/logo.png" alt="<?php echo CONF_SITE_NAME; ?>"
-                    title="<?php echo CONF_SITE_NAME; ?>"></a>
+                <a href="./"><img src="img/logo/logo.png" alt="<?php echo CONF_SITE_NAME; ?>" title="<?php echo CONF_SITE_NAME; ?>"></a>
               </div>
               <div class="footer-tittle">
                 <div class="footer-pera">
-                  <p class="info1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea quia sequi quidem
-                    tempore non facere ad doloremque sed ut dicta itaque officia, illum, amet cum in! Molestias ab
-                    fugiat vel.
+                  <p class="info1">Com uma trajetória de 33 anos de excelência, a Clyn é uma das
+                    empresas mais tradicionais e respeitadas na confecção de tapetes e revestimentos
+                    personalizados no mercado nacional.
+
 
                   </p>
                 </div>
@@ -110,8 +110,7 @@
           </div>
 
           <div class="col-lg-2 col-md-12 f-left">
-            <a href="https://www.bloomin.com.br/" target="_blank"><img src="img/logo/logo-bloomin.webp"
-                alt="logo Bloomin" title="logo Bloomin"></a>
+            <a href="https://www.bloomin.com.br/" target="_blank"><img src="img/logo/logo-bloomin.webp" alt="logo Bloomin" title="logo Bloomin"></a>
           </div>
         </div>
       </div>
